@@ -1,7 +1,7 @@
-name: "Auto Guest Login"
+name: "Auto Guest Login: 2"
 description: "A web server that provides an easy way for guests to get access to Home Assistant"
 version: "1.4.1"
-slug: "ha-auto-guest-login"
+slug: "ha-auto-guest-login-2"
 init: false
 image: "norick/image-{arch}-ha-auto-guest-login-addon"
 codenotary: cnathanorick@gmail.com
@@ -18,7 +18,7 @@ homeassistant_api: true
 ingress: true
 ingress_entry: admin
 ingress_port: 80
-panel_icon: mdi:taco
+panel_icon: mdi:login-variant
 
 ports:
   80/tcp: 8675
